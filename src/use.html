@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/vendor/charts/morris-bundle/morris.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <title>Blockchain</title>
+</head>
+<style>
+label
+{
+	font-weight:strong;
+}
+input[type="text"], input[type="radio"], input[type="email"], input[type="number"]
+{
+	color:black;
+}
+#exampleFormControlTextarea1
+{
+	color:black;
+}
+</style>
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+	    <!-- ============================================================== -->
+	    <!-- navbar -->
+	    <!-- ============================================================== -->
+	    <div class="dashboard-header">
+	        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+	            <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand">Blockchain Based User Identity</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title">History</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="assets/images/avatar-2.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Pon Logesh P</span>Started Application
+                                                        <div class="notification-date">1 hour ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-footer"> <a href="#">View all hsitory</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+	</div>
+	    <!-- ============================================================== -->
+	    <!-- end navbar -->
+	    <!-- ============================================================== -->
+	    <!-- ============================================================== -->
+	    <!-- left sidebar -->
+	    <!-- ============================================================== -->
+	    <div class="nav-left-sidebar sidebar-dark">
+	        <div class="menu-list">
+	            <nav class="navbar navbar-expand-lg navbar-light">
+	                <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+	                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	                    <span class="navbar-toggler-icon"></span>
+	                </button>
+	                <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            
+                            <li class="nav-item ">
+                                <a class="nav-link" href="identity.html"><i class="fa fa-fw fa-user-circle"></i>User Identity <span class="badge badge-success">6</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="document.html"><i class="fa fa-fw fa-rocket"></i>KYC Document</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Organization</a>
+                                <div id="submenu-3" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="government.html">Government</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="bank.html">Bank</a>
+                                        </li>
+                                        <
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>History</a>
+                                <div id="submenu-4" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="response.html">Response Status</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>BlockChain Ledger</a>
+                                <div id="submenu-5" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="history.html">Block History</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contract.html">Contract History</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-divider">
+                                Others
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-fw fa-file"></i>Implementation</a>
+                                <div id="submenu-6" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="overview.html">Overview</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="software.html">Software Used</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class="fas fa-fw fa-inbox"></i>Help<span class="badge badge-secondary">New</span></a>
+                                <div id="submenu-7" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="use.html">How to Use</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+	            </nav>
+	        </div>
+	    </div>
+	    <!-- ============================================================== -->
+	    <!-- end left sidebar -->
+	    <!-- ============================================================== -->
+	    <!-- ============================================================== -->
+	    <!-- wrapper  -->
+	    <!-- ============================================================== -->
+	    <div class="dashboard-wrapper">
+	        <div class="dashboard-influence">
+	            <div class="container-fluid dashboard-content">
+	                <div class="offset-xl-1 col-xl-10">
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
+								<div class="section-block">
+									<h3>How to use the Application</h3>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+								<div class="card">
+									<div class="card-header bg-primary text-center p-3 ">
+										<h4 class="mb-0 text-white"> User identity</h4>
+									</div>
+									<div class="card-body border-top">
+										<ul class="list-unstyled bullet-check font-14">
+										<li>Provide the relevant User Identity details</li>
+										<li>Dont try to provide any invalid data to the form</li>
+										<li>Submit the form after verification of details.</li>
+										<li>METAMASK window will be opened and sign the transaction</li>
+										<li>If not interested to add details REJECT the transaction</li>
+										</ul>
+										<a href="identity.html" class="btn btn-outline-secondary btn-block btn-lg">Add User Identity</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+								<div class="card">
+									<div class="card-header bg-info text-center p-3">
+										<h4 class="mb-0 text-white">KYC document</h4>
+									</div>
+									<div class="card-body border-top">
+										<ul class="list-unstyled bullet-check font-14">
+										<li>Provide the relevant document details and select valid KYC document type from list.</li>
+										<li>Submit the form after verification of details.</li>
+										<li>After few seconds a alert message shown that <b>'File added to IPFS and returned the Hash'</b></li>
+										<li>METAMASK window will be opened and sign the transaction to add the hash to ethereum blockchain</li>
+     
+										</ul>
+										<a href="document.html" class="btn btn-outline-secondary btn-block btn-lg">Add KYC Document</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+								<div class="card">
+									<div class="card-header bg-primary text-center p-3">
+										<h4 class="mb-0 text-white">Blockchain Ledger</h4>
+									</div>
+									<div class="card-body border-top">
+										<ul class="list-unstyled bullet-check font-14">
+										<li>Provide the valid block Number in the text box.</li>
+										<li>Select the type of reciept you want.</li>
+										<li>Block receipt shows block parameters</li>
+										<li>Transaction receipt shows transaction parameters</li>
+										<li>If transaction receipt shows nothing for a block then it is a dummy or empty transaction</li>
+										</ul>
+										<a href="history".html" class="btn btn-outline-secondary btn-block btn-lg">Block Explorer</a>
+										<a href="contract.html" class="btn btn-outline-secondary btn-block btn-lg">Block Statistics</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+								<div class="card">
+									<div class="card-header bg-info text-center p-3">
+										<h4 class="mb-0 text-white">Request\Response History</h4>
+									</div>
+									<div class="card-body border-top">
+										<ul class="list-unstyled bullet-check font-14">
+										<li>It shows the "Request transactions" and the completed Reponse transactions.</li>
+										<li>Data or Document will be provided only if the owner of the identity grants permission to use.</li>
+										<li>After owner grants permission the "pending" request will be switch to <b>"View Data"</b> or <b>"View Document"</b>.</li>
+										<li>If the owner rejects the request then the pending will be switch to "Rejected"</li>
+										<li>Request as well as the Response transactions for a particular account only displayed.</li>
+										</ul>
+										<a href="response.html" class="btn btn-outline-secondary btn-block btn-lg">Request\Response</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+								<div class="card">
+									<div class="card-header bg-primary text-center p-3 ">
+										<h4 class="mb-0 text-white">Organization</h4>
+									</div>
+									<div class="card-body border-top">
+										<ul class="list-unstyled bullet-check font-14">
+										<li>This project includes two major organizations with public addresses "Government" and "Bank".</li>
+										<li>Organizations can request the user for a identity data (Data Request form) or a document (KYC Request form) through respective forms.</li>
+										<li>Valid username is required for sending the request to the owner of the data or document.</li>
+										<li>METAMASK window will be opened and sign the transaction</li>
+										<li>If not interested to request the details REJECT the transaction</li>
+										</ul>
+										<a href="government.html" class="btn btn-outline-secondary btn-block btn-lg">Government</a>
+										<a href="bank.html" class="btn btn-outline-secondary btn-block btn-lg">Bank</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+								<div class="card">
+									<div class="card-header bg-primary text-center p-3 ">
+										<h4 class="mb-0 text-white">Implementation</h4>
+									</div>
+									<div class="card-body border-top">
+										<ul class="list-unstyled bullet-check font-14">
+										<li>It provides the user the overview of the project "Blockchain Based User Identity."</li>
+										<li>It also shows the "Software and Tools"used to build the project</li>
+										</ul>
+										<a href="overview.html" class="btn btn-outline-secondary btn-block btn-lg">Overview</a>
+										<a href="software.html" class="btn btn-outline-secondary btn-block btn-lg">Implementation</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	                
+	                    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+	                    <!-- bootstap bundle js -->
+	                    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+	                    <!-- slimscroll js -->
+	                    <script src="assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+	                    <!-- main js -->
+	                    <script src="assets/libs/js/main-js.js"></script>
+	                    <!-- morris-chart js -->
+	                    <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+	                    <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+	                    <script src="assets/vendor/charts/morris-bundle/morrisjs.html"></script>
+	                    <!-- chart js -->
+	                    <script src="assets/vendor/charts/charts-bundle/Chart.bundle.js"></script>
+	                    <script src="assets/vendor/charts/charts-bundle/chartjs.js"></script>
+	                    <!-- dashboard js -->
+	                    <script src="assets/libs/js/dashboard-influencer.js"></script>
+	</body>
+</html>

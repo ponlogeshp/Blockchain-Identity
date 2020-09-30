@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/vendor/charts/morris-bundle/morris.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <title>Blockchain</title>
+<style>
+label
+{
+	font-weight:strong;
+}
+input[type="number"], input[type="radio"]
+{
+	color:black;
+}
+#exampleFormControlTextarea1
+{
+	color:black;
+}
+</style>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand">Blockchain Based User Identity</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top">
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title">History</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="assets/images/avatar-2.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Pon Logesh P</span>
+                                                        <div class="notification-date">1 day ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-footer"> <a href="#">View all History</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+       <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+							<li class="nav-item ">
+											<a class="nav-link" href="identity.html"><i class="fa fa-fw fa-user-circle"></i>User Identity <span class="badge badge-success">6</span></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="document.html"><i class="fa fa-fw fa-rocket"></i>KYC Document</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Organization</a>
+											<div id="submenu-3" class="collapse submenu" style="">
+													<ul class="nav flex-column">
+														<li class="nav-item">
+															<a class="nav-link" href="government.html">Government</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link" href="bank.html">Bank</a>
+														</li>
+														
+													</ul>
+											</div>
+										</li>
+										<li class="nav-item ">
+											<a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>History</a>
+											<div id="submenu-4" class="collapse submenu" style="">
+												<ul class="nav flex-column">
+													
+													<li class="nav-item">
+														<a class="nav-link" href="response.html">Response Status</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>BlockChain Ledger</a>
+											<div id="submenu-5" class="collapse submenu" style="">
+												<ul class="nav flex-column">
+													<li class="nav-item">
+														<a class="nav-link" href="history.html">Block History</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" href="contract.html">Contract History</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="nav-divider">
+											Others
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-fw fa-file"></i>Implementation</a>
+											<div id="submenu-6" class="collapse submenu" style="">
+												<ul class="nav flex-column">
+													<li class="nav-item">
+														<a class="nav-link" href="overview.html">Overview</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" href="software.html">Software Used</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-7" aria-controls="submenu-7"><i class="fas fa-fw fa-inbox"></i>Help<span class="badge badge-secondary">New</span></a>
+											<div id="submenu-7" class="collapse submenu" style="">
+												<ul class="nav flex-column">
+													<li class="nav-item">
+														<a class="nav-link" href="use.html">How to Use</a>
+													</li>
+													
+												</ul>
+											</div>
+										</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <div class="row">
+						<form onsubmit="disp(); return false;" method="post" id="basicform" data-parsley-validate="">
+							<div class="form-group">
+										<div class="form-group">
+                                            <b><label for="inputEmail">Block Number</label></b>
+                                            <input id="inputNum" type="number" name="mobile" data-parsley-trigger="change" min="1" max="700"required="" placeholder="Mobile Number" autocomplete="off" class="form-control">
+											
+											<b><label for="inp"></label>Type of details<br></b>
+											<label class="custom-control custom-radio custom-control-inline">
+                                                <input id="inp" type="radio" name="radio-inline" value="BReceipt"  class="custom-control-input"><span class="custom-control-label">Block Reciept</span>
+                                            </label>
+											
+                                            <label class="custom-control custom-radio custom-control-inline">
+                                                <input id="inp1" type="radio" name="radio-inline" value="TReceipt" class="custom-control-input"><span class="custom-control-label">Transaction Reciept</span>
+                                            </label>
+											<div class="col-sm-6 pl-0">
+                                                    <button type="submit" class="btn btn-space btn-primary">Submit</button>
+                                                    <!--<button class="btn btn-space btn-secondary">Cancel</button>-->
+                                            </div>
+ 										</div>
+										<p class="error"></p>
+										
+							</div>
+					</div>
+					<div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="card">
+                            <center><h3 class="card-header" style="color:blue">Block and Transaction Explorer</h3></center>
+                            <div class="card-body">
+                                <div class="table-responsive">
+								
+                                    <table class="table table-striped table-bordered first">
+
+                                        <tbody>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+	<script>
+	function disp()
+	{
+		$("tbody").empty();
+		var y=document.getElementById("basicform").elements[0].value;
+		var k;
+		if(document.getElementById("inp").checked)
+		{
+			web3.eth.getBlock(y, function(error, result){
+			if(!error)
+			{
+					console.log(JSON.stringify(result));
+					console.log(result.transactions);
+					$("tbody").append("<tr><td>Block Number</td><td>" +result.number+ "</td></tr>  <tr><td>Parent Hash</td><td>" +result.parentHash+ "</td></tr><tr><td>Block Hash</td><td>" +result.hash+ "</td></tr><tr><td>Difficulty</td><td>" +result.difficulty+ "</td></tr><tr><td>Nonce</td><td>" +result.nonce+ "</td></tr><tr><td>Timestamp</td><td>" +result.timestamp+ "</td></tr><tr><td>Transaction Hash</td><td>" +result.transactionsRoot+ "</td></tr><tr><td>Gas Used</td><td>" +result.gasUsed+ "</td></tr><tr><td>Gas Limit</td><td>" +result.gasLimit+ "</td></tr><tr><td>Mined By</td><td>" +result.miner+ "</td></tr>");
+			}
+			else
+			{
+				console.error(error);
+			}
+			});
+		}
+		else
+		{
+			web3.eth.getTransactionFromBlock(y,0, function(error, result){
+			if(!error)
+			{		
+					console.log(JSON.stringify(result));
+					$("tbody").append("<tr><td>Transaction Index</td><td>" +result.transactionIndex+ "</td></tr>  <tr><td>Transaction Hash</td><td>" +y+ "</td></tr><tr><td>From Address</td><td>" +result.from+ "</td></tr><tr><td>Nonce</td><td>" +result.nonce+ "</td></tr><tr><td>Gas </td><td>" +result.gas+ "</td></tr><tr><td>R</td><td>" +result.r+ "</td></tr><tr><td>S</td><td>" +result.s+ "</td></tr><tr><td>V</td><td>" +result.v+ "</td></tr><tr><td>Block Number</td><td>" +result.blockNumber+ "</td></tr><tr><td>Input Hash</td><td>" +result.input+ "</td></tr>");
+			}
+			else
+				console.error(error);
+			});
+		}	
+	}
+	</script>
+	
+	
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+ 
+</html>
