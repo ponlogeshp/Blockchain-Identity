@@ -1,9 +1,10 @@
 # Blockchain Based User Identity.
-Tools used to develop the project.
-1. Ganache GUI. 
+Tools and Languages:
+1. Ganache GUI or Geth Etheeum Client.
 2. Truffle.
-3. Metamask.
-4. IPFS.
-5. Solidity.
-6. Web3.js.
-7. Client HTML, CSS, JS and Bootstrap.
+3. Metamask Wallet.
+4. IPFS - Inter Planetary File Storage.
+5. Solidity - Smart Contract Language.
+6. Node JS
+7. Web3 JS
+8. HTML,CSS,JavaScript,Bootstrap - Client Languages.
